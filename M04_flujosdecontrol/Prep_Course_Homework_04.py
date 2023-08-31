@@ -4,6 +4,16 @@
 # ## Flujos de Control
 
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla si es mayor o menor a cero
+import random
+
+n = random.randint(-50, 50)
+
+if n > 0:
+    print(n, "es mayor a cero")
+elif n < 0:
+    print(n, "es menor a cero")
+else:
+    print(n, "es igual a cero")
 
 # In[4]:
 
