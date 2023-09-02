@@ -1,5 +1,5 @@
 import warnings
-class Funciones:
+class Funciones():
     def __init__(self, lista=[1]):
         super(Funciones, self).__init__()
         self.lista = lista
